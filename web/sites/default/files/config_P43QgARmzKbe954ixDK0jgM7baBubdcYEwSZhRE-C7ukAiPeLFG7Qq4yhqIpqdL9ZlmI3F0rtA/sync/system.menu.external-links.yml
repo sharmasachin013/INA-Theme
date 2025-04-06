@@ -1,0 +1,8 @@
+uuid: c1c52933-bfde-488f-ad5a-ab265ddadfaf
+langcode: en
+status: true
+dependencies: {  }
+id: external-links
+label: 'External Links'
+description: ''
+locked: false

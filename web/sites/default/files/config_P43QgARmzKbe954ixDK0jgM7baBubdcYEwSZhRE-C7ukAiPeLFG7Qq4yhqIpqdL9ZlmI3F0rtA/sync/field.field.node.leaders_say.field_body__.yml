@@ -1,0 +1,28 @@
+uuid: 4e76b7b8-b884-4788-aee6-31b349c2d243
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body__
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.leaders_say
+  module:
+    - text
+id: node.leaders_say.field_body__
+field_name: field_body__
+entity_type: node
+bundle: leaders_say
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - restricted_html
+    - full_html
+field_type: text_long

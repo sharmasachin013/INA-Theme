@@ -1,0 +1,7 @@
+views.style.custom_flexi_card:
+  type: views_style
+  label: 'Flexi Card'
+  mapping:
+    wrapper_class:
+      type: string
+      label: 'Wrapper class'

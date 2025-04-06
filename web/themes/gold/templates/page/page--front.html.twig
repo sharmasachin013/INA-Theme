@@ -40,17 +40,18 @@
 */
 #}
 
-    {{ include('gold:topbar', with_context = false) }}
+    {{ include('gold:topbar', 
+    with_context = false) }}
     {{ include('gold:navbar', with_context = false) }}
-    {# {{ page.nav }} #}
-    {{ include('gold:slider', with_context = false) }}
+    {{ include('gold:slider',
+     with_context = false) }}
     {{ include('gold:our_leaders', with_context = false) }}
     {{ include('gold:history', with_context = false) }}
     {{ include('gold:frontblock', with_context = false) }}
     {{ include('gold:events', with_context = false) }}
     {{ include('gold:leaders_say', with_context = false) }}
     {{ include('gold:lead_nia', with_context = false) }}
-        {{ include('gold:footer', with_context = false) }}
+    {{ include('gold:footer', with_context = false) }}
     
 
    

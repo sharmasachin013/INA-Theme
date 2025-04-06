@@ -1,0 +1,17 @@
+uuid: 9b7aef02-a948-4b63-89ce-9a90ac827603
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'OUR LEADERS'
+type: our_leaders
+description: null
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

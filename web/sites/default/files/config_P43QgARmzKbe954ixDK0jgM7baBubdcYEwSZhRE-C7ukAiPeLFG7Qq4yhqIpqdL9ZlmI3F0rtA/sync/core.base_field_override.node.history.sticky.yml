@@ -1,0 +1,22 @@
+uuid: a12f1cb8-5cf8-4ebb-98de-c9082917c5f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.history
+id: node.history.sticky
+field_name: sticky
+entity_type: node
+bundle: history
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

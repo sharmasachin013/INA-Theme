@@ -1,0 +1,19 @@
+uuid: c4699d76-0c02-4b3a-b324-8da984f2043f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sub_title
+    - node.type.leaders_say
+id: node.leaders_say.field_sub_title
+field_name: field_sub_title
+entity_type: node
+bundle: leaders_say
+label: 'sub title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,42 @@
+uuid: e6f6f224-93ec-4383-ad00-b9a7385bcd0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.history.field_body_history
+    - field.field.node.history.field_link_
+    - node.type.history
+  module:
+    - link
+    - text
+    - user
+id: node.history.default
+targetEntityType: node
+bundle: history
+mode: default
+content:
+  field_body_history:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_link_:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

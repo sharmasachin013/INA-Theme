@@ -22,6 +22,7 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
+        "drupal/devel": "^5.3",
         "drupal/fontawesome": "^3.0",
         "drupal/menu_bootstrap_icon": "^1.0",
         "drupal/project_browser": "^2.0@alpha",
@@ -104,5 +105,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "kint-php/kint": "^6.0"
     }
 }

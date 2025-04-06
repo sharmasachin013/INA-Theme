@@ -1,0 +1,18 @@
+uuid: b16c8e54-6c7c-45f9-a02c-07805d8d8f8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Recent Events'
+type: recent_events
+description: null
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: true

@@ -1,0 +1,17 @@
+uuid: 335b2e68-1b26-4a2c-acb4-5e3b033a1544
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Lead INA'
+type: lead_ina
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

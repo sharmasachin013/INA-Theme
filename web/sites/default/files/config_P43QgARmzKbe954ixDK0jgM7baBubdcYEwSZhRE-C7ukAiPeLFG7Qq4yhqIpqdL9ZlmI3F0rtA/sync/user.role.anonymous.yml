@@ -1,0 +1,29 @@
+uuid: 4b7d833a-4c89-44ca-a814-1edf7e452359
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+    - rest.resource.ina_menu_api
+  module:
+    - comment
+    - contact
+    - filter
+    - media
+    - rest
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'restful get ina_menu_api'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view media'

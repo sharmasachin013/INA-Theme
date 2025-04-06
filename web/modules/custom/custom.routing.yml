@@ -1,0 +1,75 @@
+custom.example.one:
+  path: "/custom/example-one"
+  defaults:
+    _title: "Example One"
+    _controller: '\Drupal\custom\Controller\ExampleController'
+  requirements:
+    _permission: "access content"
+
+custom.example_two:
+  path: "/custom/example-two"
+  defaults:
+    _title: "Example Two"
+    _controller: '\Drupal\custom\Controller\ExampleTwo'
+  requirements:
+    _permission: "custom permission"
+
+custom.offers_controller_hello:
+  path: "/offers/holi/{count}"
+  defaults:
+    _controller: '\Drupal\custom\Controller\OffersController::hello'
+    _title: "Offers"
+  requirements:
+    _permission: "access content"
+
+custom.example_access:
+  path: "/dmd/example-access"
+  defaults:
+    _controller: '\Drupal\custom\Controller\ExampleControllerCustomAccess::build'
+    _title: "Routing Example with Custom Access Control"
+    # This is an example of passing a static value to both the build and access
+    # methods.
+    min_username_length: 4
+  requirements:
+    _custom_access: '\Drupal\custom\Controller\ExampleControllerCustomAccess::access'
+
+dmd.node_viewer:
+  path: "/dmd/{node}/{view_mode}"
+  defaults:
+    _controller: '\Drupal\custom\Controller\NodeViewer::view'
+    _title_callback: '\Drupal\custom\Controller\NodeViewer::titleCallback'
+    view_mode: "full"
+  requirements:
+    _permission: "access content"
+
+dmd.example:
+  path: "/dmd/example"
+  defaults:
+    _title: "Example"
+    _controller: '\Drupal\custom\Controller\DmdController::build'
+  requirements:
+    _permission: "access content"
+
+custom.filedownload:
+  path: "/dmd/filedownload"
+  defaults:
+    _title: "File Download"
+    _controller: '\Drupal\custom\Controller\FileDownload::build'
+  requirements:
+    _permission: "access content"
+
+custom.urltest:
+  path: "/dmd/urltest"
+  defaults:
+    _title: "File Download"
+    _controller: '\Drupal\custom\Controller\FileDownload::urltest'
+  requirements:
+    _permission: "access content"
+
+custom.di:
+  path: "/dmd/example/di"
+  defaults:
+    _title: "Dependency  Injection in a Controller in Drupal 10"
+    _controller: '\Drupal\custom\Controller\FileDownload::exampleDi'
+  requirements:
+    _permission: "access content"

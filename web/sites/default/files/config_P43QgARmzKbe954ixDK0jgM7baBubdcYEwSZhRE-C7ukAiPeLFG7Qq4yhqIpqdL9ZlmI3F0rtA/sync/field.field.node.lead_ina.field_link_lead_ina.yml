@@ -1,0 +1,23 @@
+uuid: 4611d58f-9e2e-4c5d-8e68-5ef03bffeac2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_lead_ina
+    - node.type.lead_ina
+  module:
+    - link
+id: node.lead_ina.field_link_lead_ina
+field_name: field_link_lead_ina
+entity_type: node
+bundle: lead_ina
+label: link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

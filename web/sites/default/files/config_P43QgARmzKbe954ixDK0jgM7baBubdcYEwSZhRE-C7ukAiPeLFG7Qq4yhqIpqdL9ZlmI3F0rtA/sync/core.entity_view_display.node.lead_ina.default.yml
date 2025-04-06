@@ -1,0 +1,46 @@
+uuid: 0f8a9082-78f0-4b12-9d09-c64a3aa15857
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.lead_ina.field_image_lead_nia
+    - field.field.node.lead_ina.field_link_lead_ina
+    - node.type.lead_ina
+  module:
+    - image
+    - link
+    - user
+id: node.lead_ina.default
+targetEntityType: node
+bundle: lead_ina
+mode: default
+content:
+  field_image_lead_nia:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_link_lead_ina:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

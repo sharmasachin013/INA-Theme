@@ -1,0 +1,26 @@
+uuid: 59ccfdb9-7101-4d75-baa7-26808532fada
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_history
+    - filter.format.basic_html
+    - filter.format.full_html
+    - node.type.history
+  module:
+    - text
+id: node.history.field_body_history
+field_name: field_body_history
+entity_type: node
+bundle: history
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_long

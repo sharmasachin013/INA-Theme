@@ -1,0 +1,30 @@
+uuid: 1df30ef6-7750-4d64-a30a-0d2833d5a470
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.plain_text
+    - filter.format.restricted_html
+    - node.type.recent_events
+  module:
+    - text
+id: node.recent_events.field_body
+field_name: field_body
+entity_type: node
+bundle: recent_events
+label: body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - restricted_html
+    - full_html
+    - plain_text
+field_type: text_long

@@ -1,0 +1,38 @@
+uuid: 9d383997-d9f7-4c3f-bac2-d2e6c8127a73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_lead_nia
+    - node.type.lead_ina
+  module:
+    - image
+id: node.lead_ina.field_image_lead_nia
+field_name: field_image_lead_nia
+entity_type: node
+bundle: lead_ina
+label: 'image lead nia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

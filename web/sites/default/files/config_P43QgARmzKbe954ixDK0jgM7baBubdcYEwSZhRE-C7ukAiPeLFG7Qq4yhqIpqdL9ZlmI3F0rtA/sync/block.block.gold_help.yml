@@ -1,0 +1,22 @@
+uuid: 162bdc06-b477-4342-9407-2f18a69e9a83
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gold
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: gold_help
+theme: gold
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

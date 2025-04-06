@@ -1,0 +1,23 @@
+demo.example:
+  path: "/demo/example"
+  defaults:
+    _title: "Demo Controller"
+    _controller: '\Drupal\demo\Controller\DemoController::test'
+  requirements:
+    _permission: "access content"
+
+demo.example.access:
+  path: "/demo/example/access"
+  defaults:
+    _title: "Access Controller"
+    _controller: '\Drupal\demo\Controller\DemoController::test'
+  requirements:
+    _permission: "administrator"
+
+demo.example.alias:
+  path: "/demo/alias"
+  defaults:
+    _title: "Demo"
+    _controller: '\Drupal\demo\Controller\DemoController::accessTest'
+  requirements:
+    _permission: "access content"

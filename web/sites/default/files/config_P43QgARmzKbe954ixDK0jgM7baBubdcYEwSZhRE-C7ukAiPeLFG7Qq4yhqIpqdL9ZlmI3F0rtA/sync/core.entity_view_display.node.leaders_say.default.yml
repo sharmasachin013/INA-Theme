@@ -1,0 +1,50 @@
+uuid: 6ef9e4d4-1fca-462d-b54f-947b44cf0430
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.leaders_say.field_body__
+    - field.field.node.leaders_say.field_img
+    - field.field.node.leaders_say.field_sub_title
+    - node.type.leaders_say
+  module:
+    - image
+    - text
+    - user
+id: node.leaders_say.default
+targetEntityType: node
+bundle: leaders_say
+mode: default
+content:
+  field_body__:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_img:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_sub_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

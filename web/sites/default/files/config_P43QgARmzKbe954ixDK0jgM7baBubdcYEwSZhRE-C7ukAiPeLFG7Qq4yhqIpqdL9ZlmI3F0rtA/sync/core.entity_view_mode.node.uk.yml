@@ -1,0 +1,11 @@
+uuid: 89c96cdc-e225-43ad-a02a-e151126c60de
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.uk
+label: UK
+description: ''
+targetEntityType: node
+cache: true

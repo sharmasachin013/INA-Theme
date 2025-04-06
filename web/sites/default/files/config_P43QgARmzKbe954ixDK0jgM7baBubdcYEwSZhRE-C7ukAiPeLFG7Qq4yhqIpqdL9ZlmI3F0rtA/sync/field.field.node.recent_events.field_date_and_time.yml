@@ -1,0 +1,21 @@
+uuid: 8b6404d8-57f2-40af-aa74-f87c9a9a6a64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_and_time
+    - node.type.recent_events
+  module:
+    - datetime
+id: node.recent_events.field_date_and_time
+field_name: field_date_and_time
+entity_type: node
+bundle: recent_events
+label: 'Date and Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
